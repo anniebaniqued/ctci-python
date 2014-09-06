@@ -16,10 +16,3 @@ def test_compress_llllllllajdklllllll():
 
 def test_compress_aabcccccaaa():
     assert compress('aabcccccaaa') == 'a2b1c5a3'
-
-if __name__ == '__main__':
-    test_compress_able()
-    test_compress_backlog()
-    test_compress_carbonized()
-    test_compress_documentarily()
-    test_compress_uncopyrightable()

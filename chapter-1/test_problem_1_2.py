@@ -31,15 +31,3 @@ def test_reverse_pianistically():
 
 def test_reverse_pyroelectricities():
     assert reverse('pyroelectricities') == 'seiticirtceleoryp'
-
-if __name__ == '__main__':
-    test_reverse_able()
-    test_reverse_backlog()
-    test_reverse_carbonized()
-    test_reverse_documentarily()
-    test_reverse_uncopyrightable()
-    test_reverse_ball()
-    test_reverse_pokemon()
-    test_reverse_abhorrence()
-    test_reverse_pianistically()
-    test_reverse_pyroelectricities()

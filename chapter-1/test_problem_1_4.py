@@ -16,10 +16,3 @@ def test_replace_spaces_documentarily():
 
 def test_replace_spaces_uncopyrightable():
     assert replace_spaces('  un  co   pyr ig ht ab le  ') == 'un%20%20co%20%20%20pyr%20ig%20ht%20ab%20le'
-
-if __name__ == '__main__':
-    test_replace_spaces_able()
-    test_replace_spaces_backlog()
-    test_replace_spaces_carbonized()
-    test_replace_spaces_documentarily()
-    test_replace_spaces_uncopyrightable()

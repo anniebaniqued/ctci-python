@@ -31,15 +31,3 @@ def test_check_if_permutation_pianistically_yllacitsinaid():
 
 def test_check_if_permutation_pyroelectricities_seiticirtceleorip():
     assert check_if_permutation('pyroelectricities', 'seiticirtceleorip') == False
-
-if __name__ == '__main__':
-    test_check_if_permutation_able_elba()
-    test_check_if_permutation_backlog_golkcab()
-    test_check_if_permutation_carbonized_dezinobrac()
-    test_check_if_permutation_documentarily_yliratnemucod()
-    test_check_if_permutation_uncopyrightable_elbathgirypocnu()
-    test_check_if_permutation_ball_laab()
-    test_check_if_permutation_pokemon_namekop()
-    test_check_if_permutation_abhorrence_ecnerrohbe()
-    test_check_if_permutation_pianistically_yllacitsinaid()
-    test_check_if_permutation_pyroelectricities_seiticirtceleorip()
