@@ -9,6 +9,9 @@ def check_if_unique(word):
     if len(word) > 26:
         return False
     # Sort the letters and check if there's a repetition
+    # NOTE: sorted() generates a list and then join functions reconstructs it
+    # into a string. Does this count as cheating by using an additional data
+    # structure? Not sure.
     sorted_word = ''.join(sorted(word))
     for i in range (len(word)-1):
         if sorted_word[i] == sorted_word[i+1]:
