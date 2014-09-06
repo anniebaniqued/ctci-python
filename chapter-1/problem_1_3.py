@@ -1,21 +1,19 @@
 #!/usr/bin/env python
 
 # Problem Statement
-# Implement a function void reverse(char* str) in C or C++ which reverses a
-# null terminated string
-#
-# NOTE: For my personal case, I will simply be implementing a function that
-# reverses any given string
+# Given two strings write a method to decide if one is a permutation of the
+# other
 
 def check_if_permutation(word1, word2):
+    # If the length of the words are not the same, it is impossible for one
+    # to be a permutation of the other
     if len(word1) != len(word2):
         return False
-    sorted_word1 = sorted(word1)
-    sorted_word2 = sorted(word2)
-    for i in range (0, len(word1)):
-        if sorted_word1[i] != sorted_word2[i]:
-            return False
-    return True
+
+    # Sorts both words and checks if equal
+    sorted_word1 = ''.join(sorted(word1))
+    sorted_word2 = ''.join(sorted(word2))
+    return sorted_word1 == sorted_word2
 
 def main():
     while(True):

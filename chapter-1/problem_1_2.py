@@ -8,6 +8,7 @@
 # reverses any given string
 
 def reverse(word):
+    # Iterates through the string backwards and creates a reversed string
     retval = ''
     for i in range (len(word)-1, -1, -1):
         retval += word[i]
