@@ -34,3 +34,12 @@ def test_check_if_unique_pyroelectricities():
 
 if __name__ == '__main__':
     test_check_if_unique_able()
+    test_check_if_unique_backlog()
+    test_check_if_unique_carbonized()
+    test_check_if_unique_documentarily()
+    test_check_if_unique_uncopyrightable()
+    test_check_if_unique_ball()
+    test_check_if_unique_pokemon()
+    test_check_if_unique_abhorrence()
+    test_check_if_unique_pianistically()
+    test_check_if_unique_pyroelectricities()
