@@ -21,3 +21,5 @@ Output: "Mr%20John%20Smith"
 [Solution](https://github.com/maybeiambatman/ctci-python/blob/master/chapter-1/problem_1_4.py)
 
 1.5. Implement a method to perform a basic string compression using the counts of the repeated characters. For example, the string aabcccccaaa would become a2b1c5a3. If the "compressed" string would not become smaller than the original string, your method should return the original string. [Solution](https://github.com/maybeiambatman/ctci-python/blob/master/chapter-1/problem_1_5.py)
+
+1.6. Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place? [Solution](https://github.com/maybeiambatman/ctci-python/blob/master/chapter-1/problem_1_6.py)
