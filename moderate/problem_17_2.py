@@ -62,7 +62,7 @@ def has_won_NxN(board, n):
                 if board[row][col] != board[row][col-1]:
                     break
             if col == n-1:
-                return board[row][0]
+                return board[row][0] # return the piece that won
 
     # Check Rows
     for col in range(0, n):
@@ -71,7 +71,7 @@ def has_won_NxN(board, n):
                 if board[row][col] != board[row-1][col]:
                     break
             if row == n-1:
-                return board[0][col]
+                return board[0][col] # return the piece that won
 
     # Check Diagonal
     if board[0][0] != empty:
@@ -79,7 +79,7 @@ def has_won_NxN(board, n):
             if board[x][x] != board[x-1][x-1]:
                 break
         if x == n-1:
-            return board[0][0]
+            return board[0][0] # return the piece that won
 
     # Check Reverse Diagonal
     if board[n-1][0] != empty:
@@ -87,7 +87,7 @@ def has_won_NxN(board, n):
             if board[n-1-x][x] != board[n-x][x-1]:
                 break
         if x == n-1:
-            return board[n-1][0]
+            return board[n-1][0] # return the piece that won
 
-    return empty
+    return empty # nobody won
 

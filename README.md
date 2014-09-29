@@ -32,3 +32,5 @@ Moderate
 17.1. Write a function to swap a number in place (that is, without temporary variables) [Solution](https://github.com/maybeiambatman/ctci-python/blob/master/moderate/problem_17_1.py)
 
 17.2. Design an algorithm to figure out if someone has won a game of tic-tac-toe. [Solution](https://github.com/maybeiambatman/ctci-python/blob/master/moderate/problem_17_2.py)
+
+17.3. Write an algorithm which computes the number of trailng zeros in n factorial. [Solution](https://github.com/maybeiambatman/ctci-python/blob/master/moderate/problem_17_3.py)
