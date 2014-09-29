@@ -26,6 +26,12 @@ def test_3x3_matrix_diagonal_won():
               [2, 0, 1]]
     assert has_won_3x3(matrix) == 1
 
+def test_3x3_matrix_reverse_diagonal_won():
+    matrix = [[1, 0, 2],
+              [0, 2, 0],
+              [2, 0, 1]]
+    assert has_won_3x3(matrix) == 2
+
 def test_5x5_matrix_nobody_won():
     matrix = [[0, 0, 0, 0, 0],
               [1, 0, 2, 0, 0],
